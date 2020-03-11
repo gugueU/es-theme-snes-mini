@@ -2,7 +2,7 @@
 
     <formatVersion>3</formatVersion>
 
-	<view name="basic, detailed, video, system">
+	<view name="basic, detailed, video, grid, system">
 		
 		<rating name="md_rating">
 			<size>0.0166666666666667 0.0296296296296296</size>		

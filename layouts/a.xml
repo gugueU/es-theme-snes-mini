@@ -14,7 +14,7 @@ author:			ruckage
 	
 	<include>./developer_pos_4.xml</include>	
 	
-	<include>./genre_pos_5.xml</include>
+	<include>./genre_pos_5.xml</include>.
 
 	<include>./boxart_pos_2.xml</include>
 	

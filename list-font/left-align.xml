@@ -2,7 +2,7 @@
 
     <formatVersion>3</formatVersion>
 
-	<view name="basic, detailed, video, system">
+	<view name="basic, detailed, video, grid, system">
 		
 		<textlist name="gamelist">
 			<alignment>left</alignment>

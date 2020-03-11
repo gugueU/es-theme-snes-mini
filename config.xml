@@ -6,6 +6,8 @@ author:			ruckage
 
 <theme>
     <formatVersion>3</formatVersion>
+
+	<include>./layouts/grid.xml</include>
 	
 <!-- Choose your layout ()see ## LAYOUT GUIDE ##.png) -->
 	<include>./layouts/a.xml</include>
@@ -17,7 +19,7 @@ author:			ruckage
 	<include>./rating/heart.xml</include>	
 
 <!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
-    <include>./background/neon_blue_spectrum.xml</include>	
+    <include>./background/blurred_shots.xml</include>
 	
 <!-- Choose your theme style (snes_europe or snes_usa or nes_rich_europe or nes_rich_usa or nes_simple_europe or nes_simple_usa) -->	
 	<include>./style/snes_europe.xml</include>	

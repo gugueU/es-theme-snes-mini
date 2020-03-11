@@ -16,7 +16,7 @@
 	
 	</view>
 	
-	<view name="basic, detailed, video, system">
+	<view name="basic, detailed, video, grid, system">
 	
 		<image name="header" extra="true">
 			<path>./../art/logos_usa/${system.theme}.png</path>

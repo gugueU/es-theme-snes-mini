@@ -1,0 +1,97 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+
+    <view name="grid">
+        <imagegrid name="gamegrid">
+            <pos>0.02 0.13</pos>
+            <size>0.58 0.74</size>
+            <autoLayout>5 3</autoLayout>
+            <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+            <scrollDirection>vertical</scrollDirection>
+            <scrollLoop>true</scrollLoop>
+            <folderImage>./../art/${style}/folder.png</folderImage>
+            <animate>false</animate>
+            <!--            espace entre les vignettes-->
+            <margin>0.001 0.001</margin>
+            <padding>0.0 0.0</padding>
+        </imagegrid>
+
+        <gridtile name="default">
+<!--            padding dans la vignette-->
+            <padding>11 11</padding>
+            <backgroundImage>./window_border.png</backgroundImage>
+            <backgroundCenterColor>000000FF</backgroundCenterColor>
+        </gridtile>
+
+        <video name="md_video">
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+            <delay>0</delay>
+            <maxSize>0.45 0.45</maxSize>
+            <pos>0.80 0.38</pos>
+            <origin>0.5 0.5</origin>
+        </video>
+
+        <image name="video_window_border" extra="true">
+            <path>./window_border.png</path>
+            <size>0.38 0.5</size>
+            <pos>0.80 0.38</pos>
+            <origin>0.5 0.5</origin>
+            <color>c8c8c8</color>
+        </image>
+
+        <image name="gamelist_help" extra="true">
+            <size>0.4416666666666667 0</size>
+        </image>
+
+        <text name="md_name">
+            <pos>0.77 0.8</pos>
+            <origin>0.5 0.5</origin>
+            <fontPath>./../art/TinyUnicode.ttf</fontPath>
+        </text>
+
+
+
+
+
+        <text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+            <fontPath>./../art/TinyUnicode.ttf</fontPath>
+            <forceUppercase>1</forceUppercase>
+            <fontSize>0.0592592592592593</fontSize>
+            <size>0.25 0.0333333333333333</size>
+        </text>
+
+        <text name="publisher_label" extra="true">
+            <alignment>left</alignment>
+            <text>  Published</text>
+        </text>
+
+        <text name="developer_label" extra="true">
+            <alignment>center</alignment>
+            <text>Developed by</text>
+        </text>
+
+        <text name="genre_label" extra="true">
+            <alignment>center</alignment>
+            <text>Genre</text>
+        </text>
+
+        <text name="rating_label" extra="true">
+            <alignment>center</alignment>
+            <size>0.09375 0.0333333333333333</size>
+            <text>Rating</text>
+        </text>
+
+        <text name="played_label" extra="true">
+            <alignment>center</alignment>
+            <size>0.09375 0.0333333333333333</size>
+            <text>Played</text>
+        </text>
+
+        <sound name="launch">
+            <path>./sounds/se_sys_click_game.wav</path>
+        </sound>
+    </view>
+</theme>

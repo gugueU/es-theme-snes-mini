@@ -23,7 +23,7 @@ author:			ruckage
 	</feature>	
 	
 	
-	<view name="basic, detailed, video, system">
+	<view name="basic, detailed, video, grid, system">
 	
 		<image name="bg_color" extra="true">
 			<size>1 0.7407407407407407</size>
